@@ -208,6 +208,8 @@ Introduction
 </a>
 */
 
+//?  here in order to deploy we had to add a new route in the url and link parameter to redirect the pages on the pop up menu research if you want todeploy it in a new project you must to change it to te normal route like (/) or (/Introduction) etc.  /
+
 const researched = [
   { title: 'Introduction', excerpt: 'Introduction', url: '/webservice/#/Introduction', link: '/webservice/#/Introduction', paragraph: 'This Website is intended to be a guide for those who want to start their own ecommerce website or event a personal blog, also this website is meant to everyone who is learning about software-programming. In this website you can find my journey on build my own website and also you can find some tips and tricks that I have learned along the way. The tootls and technologies that I have used are mainly free and open source, so you can use them too. Having said that, I hope you enjoy this website and if you have any questions or suggestions, please feel free to contact me.' },
   { title: 'Ecommerce', excerpt: 'Ecommerce', url: '/webservice/#/Firstproject', link: '/webservice/#/Firstproject', paragraph: 'The ecommerce is one of the most common React web application a developer can be asked to build. Here is why knowing how to properly craft an ecommerce application from the ground up can be considered a crucial skill. Over the last few years, several libraries have been built to help developers reach this goal effortlessly. Specifically, Snipcart is the solution you are looking for. Not only does it allow you to set up an ecommerce in a few minutes, but it is also a secure, reliable, and advanced solution. Read this article instead, if you want to build a Next.js ecommerce.' },
